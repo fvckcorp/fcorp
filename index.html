@@ -14,7 +14,7 @@
    }
    header {
      padding: 60px 20px;
-     background: #f00;
+     background: rgb(0, 0, 0);
      color: #000;
    }
    h1 {
@@ -74,14 +74,25 @@ h1 {
   text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0);
   letter-spacing: 0.15em;
 }
+.din {
+  color: #f00;
+  animation: blink 1s infinite ease-in-out;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
 
 </style>
 </head>
 <body>
 <header>
-<h1>$FCORP</h1>
-<p>FVCK CORPORATE. MEMECOIN OF THE PEOPLE.</p>
+  <img src="https://res.cloudinary.com/dpv3s9krm/image/upload/v1750157957/fcorp2_pwcx36.png" alt="$FCORP Logo" style="max-width: 300px; width: 80%; height: auto;" />
+  <p class="din">FVCK CORPORATE. MEMECOIN OF THE PEOPLE.</p>
 </header>
+
 <section>
 <h2>🔥 Why $FCORP?</h2>
 <p>
@@ -91,7 +102,7 @@ h1 {
 </p>
 <p>
      But the ladder was never built for you.  
-     $FKCORP is a memecoin for the underpaid, overworked & pissed off.
+     $FCORP is a memecoin for the underpaid, overworked & pissed off.
 </p>
 <p>
      No VCs. No bosses. No roadmap.  
